@@ -12,7 +12,7 @@ module.exports = { session: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2Y
     OWNER_NAME: process.env.OWNER_NAME || "xh_clinton",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "2349078323948",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
-    AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "yes",       
+    AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "no",       
     AUTO_LIKE_STATUS: process.env.AUTO_LIKE_STATUS || "yes",                     
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
     BOT : process.env.BOT_NAME || 'Toxic-MD',
